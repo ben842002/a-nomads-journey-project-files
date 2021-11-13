@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PlayerHealthbar
+  - PlayerHealthtext
+  - Enemy
+  - PlayerManabar
+  - Ground
+  - MovingPlatform
+  - DialogueBox
+  - CrossFade
+  - HealItem
+  - SaveIcon
+  - Wall
+  - MaxLives
+  - CurrentLives
+  - AntiSpawn
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - Enemy
+  - Player
+  - Wall
+  - DeadEnemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Primary Background
+    uniqueID: 4167645329
+    locked: 0
+  - name: 'Secondary Background '
+    uniqueID: 3818945155
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Foreground Tiles
+    uniqueID: 2120314457
+    locked: 0
+  - name: Foreground for Sprites
+    uniqueID: 722264567
+    locked: 0

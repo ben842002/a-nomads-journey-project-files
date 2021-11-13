@@ -1,0 +1,249 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2094297696390982484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2094297696390982485}
+  - component: {fileID: 7812316370169923891}
+  m_Layer: 0
+  m_Name: AUDIO MANAGER
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2094297696390982485
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094297696390982484}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7812316370169923891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094297696390982484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0debfe36155d2429557427376ceb4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Menu
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 5b6a5839ade9a404698f71030714a8d8, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+  - name: MouseOver
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: e7992d172691ce147bde04a9ea103f2c, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+  - name: MouseClick
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 00b18e15346f38a4e8535ac98e4ac9ee, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+  - name: PlayerHit
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 8a6e2eb7616e1af45b3587a759c30988, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+  - name: PlayerDeath
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 6848a5f1edf5a764788524b851b92be8, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: GameOver
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 4772bb34ce752b346a08b02b7cbd023e, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+  - name: Basic Attack 1
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 1b5b43d74e7fa7b4a98bb3d25bed92c9, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 1
+    pitch: 1.25
+    loop: 0
+  - name: Basic Attack 2
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 1b5b43d74e7fa7b4a98bb3d25bed92c9, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 1
+    pitch: 1.5
+    loop: 0
+  - name: PlayerJump
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 60e097f4b7b1c354cb26fe8383a5c663, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 0.5
+    pitch: 0.5
+    loop: 0
+  - name: PlayerJump2
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 60e097f4b7b1c354cb26fe8383a5c663, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 0.5
+    pitch: 0.75
+    loop: 0
+  - name: PlayerLand
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: a35ec44331d4b514cabf31e928f058b5, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+  - name: PlayerFootstep
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 5742cde4ee9c59244a954c2ce4c3610b, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+  - name: PlayerFootstep2
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 246abec35494b164a9fd5d374c507690, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 0.25
+    pitch: 0.85
+    loop: 0
+  - name: EnemyHit
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 5fd922c063223ae48908f5f1dd2123bb, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+  - name: EnemyDeath
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: d01207052d44f9c42891da6e163cf01b, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+  - name: PlayerDash
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 5a6b51d0087976347b71eb2fc82101d9, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: BowRelease
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 473235b5a7f382947986d9b07e34f41a, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 0.75
+    pitch: 1
+    loop: 0
+  - name: ArrowImpact
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 2ae61897467927b4981519650c0c10c6, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 0.75
+    pitch: 1.25
+    loop: 0
+  - name: Dreadghoul
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: f356e4d9533cd3c4f81c975d3af6ac55, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+  - name: Bandit
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 1b5b43d74e7fa7b4a98bb3d25bed92c9, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 0.5
+    pitch: 0.85
+    loop: 0
+  - name: EnemyShoot
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: bededcb262928e5488b5a71a41dbd40f, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 0.5
+    pitch: 0.85
+    loop: 0
+  - name: DeathBasic
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: fa61ed9603572114ca41af60dd125d0b, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 0.5
+    pitch: 2
+    loop: 0
+  - name: DeathProjectiles
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 1d390be2f1047844ea4d248819d1434b, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 0.5
+    pitch: 2
+    loop: 0
+  - name: DeathMusic
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 6aa06fcda4dfa3b4e9af43936ef354c7, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+  - name: Item Feedback
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: d8401d2f6a33d47478314f69b29103b2, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+  - name: BombExplosion
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 94e926e86e98fc24c91f2909b1bd84e1, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+  - name: Skeleton
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 1b5b43d74e7fa7b4a98bb3d25bed92c9, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 0.5
+    pitch: 1.5
+    loop: 0
+  - name: GoblinAttack
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 1b5b43d74e7fa7b4a98bb3d25bed92c9, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 0.5
+    pitch: 1.25
+    loop: 0
+  - name: GoblinThrow
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 8ce2f5d21c88a964eb30442e9e68737f, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: 061420b545971a142af90d63fdab5b9b, type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
